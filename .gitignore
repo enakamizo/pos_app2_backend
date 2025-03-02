@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and cache
+logs/
+*.log
+cache/
+
+# Environment variables
+.env
+
+# MySQL data (もし `backend` 内でDBを動かす場合)
+*.db
+*.sqlite3
